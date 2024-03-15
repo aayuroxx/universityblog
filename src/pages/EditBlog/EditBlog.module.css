@@ -1,0 +1,43 @@
+.Back_Btn {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  align-self: flex-start;
+  width: 17%;
+  display: flex;
+  justify-content: end;
+}
+
+.Main_Page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Card_Section_Main{
+  width: 70vw;
+  justify-content: center;
+  margin-bottom: 25px;
+  background-color: #f4f1f9;
+}
+
+.Card_Body{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.FromSection{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 90%;
+  gap: 1.5rem;
+}
+
+.Row_Section{
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

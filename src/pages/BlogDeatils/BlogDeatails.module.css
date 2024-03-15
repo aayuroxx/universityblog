@@ -1,0 +1,111 @@
+.heart,
+.heart-clicked {
+   border: 1px solid red;
+   border-top: none;
+   border-right: none;
+   display: inline-block;
+   height: 30px;
+   margin: 0 10px;
+   position: relative;
+   top: 0;
+   transform: rotate(-45deg);
+   width: 30px;
+}
+.heart-clicked {
+   background-color: red;
+}
+.heart:before,
+.heart:after,
+.heart-clicked:before,
+.heart-clicked:after {
+   content: "";
+   border: 1px solid red;
+   border-radius: 50%;
+   height: 30px;
+   position: absolute;
+   width: 30px;
+   border-top-left-radius: 15px;
+   border-top-right-radius: 15px;
+}
+.heart-clicked:before,
+.heart-clicked:after {
+   background-color: red;
+}
+.heart:before,
+.heart-clicked:before {
+   top: -15px;
+   left: 0;
+   border-bottom: none;
+   border-left: none;
+   transform: rotate(-45deg);
+}
+.heart:after,
+.heart-clicked:after {
+   left: 15px;
+   top: 0;
+   border-bottom: none;
+   border-left: none;
+   transform: rotate(45deg);
+}
+
+.Back_Btn {
+   padding-bottom: 1rem;
+   padding-top: 1rem;
+   align-self: flex-start;
+   width: 17%;
+   display: flex;
+   justify-content: end;
+ }
+ 
+ .Card_Body_Main{
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+   justify-content: center;
+   width: 95%;
+ }
+
+ .Blog_Title{
+   font-weight: 700;
+ }
+
+ .Category_Section{
+   font-weight: 600;
+   font-size: x-large;
+   padding-top: 0.4rem;
+ }
+
+ .Bottom_Section{
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .Bottom_Section > div {
+   display: flex;
+   gap: 2rem;
+ }
+
+ .BlogDetails_Main_Page{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .Card_Main{
+   width: 70vw;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   /* margin-bottom: 25px; */
+   gap: 1rem;
+   background-color: #fff9ec;
+ }
+
+ .Card_Header_Section{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+ }
